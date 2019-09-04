@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs-node": "^1.2.8"
+    "@tensorflow/tfjs-node": "^1.2.8",
+    "canvas": "^2.6.0"
   }
 }
