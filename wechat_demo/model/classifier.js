@@ -115,6 +115,7 @@ var Classifier = /** @class */ (function () {
                     kpts = Array.from(tensor[0].dataSync());
                     conf = Array.from(tensor[1].dataSync());
                     result += conf + "\n";
+                    result += tf.getBackend() + "\n";
                     return result;
                 });
                 this.page.setData({ result: result });
