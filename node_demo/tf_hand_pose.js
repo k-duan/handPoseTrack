@@ -6,8 +6,8 @@ const tfnode = require('@tensorflow/tfjs-node');
 const {createCanvas, Image} = require('canvas');
 const fs = require("fs");
 const num_keypoints = 21
-const input_image_path = './test.png'
-const output_image_path = './output.png'
+const input_image_path = '../test.png'
+const output_image_path = '../output.png'
 
 function drawPoints(canvas, keypoints, output_path) {
   tf.util.assert(keypoints.length == 2*num_keypoints)
@@ -42,7 +42,7 @@ async function loadImage(imageUrl) {
 
 async function trackHandPose() {
   // Load hand pose model
-  const MODEL_PATH = 'tfjs_models/hand_landmark.web_model/model.json';
+  const MODEL_PATH = '../tfjs_models/hand_landmark.web_model/model.json';
   console.log(MODEL_PATH)
   const model = await tf.loadLayersModel(tfnode.io.fileSystem(MODEL_PATH))
   // model.summary();

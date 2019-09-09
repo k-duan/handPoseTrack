@@ -1,0 +1,18 @@
+{
+  "name": "tfjs-wechat-plugin-mobile-example",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "dist/index.js",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^3.3.3333",
+    "miniprogram-api-typings": "^2.8.1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-core": "^1.2.8",
+    "@tensorflow/tfjs-layers": "^1.2.8",
+    "fetch-wechat": "0.0.3"
+  }
+}

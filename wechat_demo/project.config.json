@@ -1,0 +1,52 @@
+{
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": ".vscode"
+			},
+			{
+				"type": "folder",
+				"value": "node_modules"
+			},
+			{
+				"type": "folder",
+				"value": "src"
+			},
+			{
+				"type": "folder",
+				"value": "dist/plugin/test"
+			}
+		]
+	},
+	"compileType": "miniprogram",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"appid": "wx840d708a223c9fd9",
+	"projectname": "HandPoseTrack",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"libVersion": "2.8.2",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}
