@@ -12,6 +12,4 @@ Open WeChat DevTools, choose `Build NPM`
 
 ## Run
 
-```bash
-node tf_hand_pose.js
-```
+选择在DevTools的模拟器中运行无法使用webgl backend，若需在手机上运行，选择“预览”即可
